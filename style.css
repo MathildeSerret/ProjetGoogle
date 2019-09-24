@@ -1,0 +1,105 @@
+
+div.hautdepage
+{
+    display: flex;
+    flex-direction : row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    width: auto;
+    margin: 0 auto;
+}
+
+header a
+{
+    color: #000000;
+    font-size: medium;
+    
+}    
+
+.connexion
+{
+   background: #0000FF;
+   color:#FFFFFF;
+}
+
+
+.central
+{
+  position: absolute; 
+  top: 50%; left: 50%; 
+  transform: translate(-50%, -50%); 
+}
+
+.logo
+{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    margin: 0 auto;
+
+}
+
+.barrederecherche
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: auto;
+    margin: 0 auto;
+}
+
+.boutons
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: auto;
+    margin: 0 auto;
+}
+
+footer
+{
+    background-color: #F5F5F5;
+    font-size: medium;
+    position: absolute; bottom: 0; left: 0; right: 0;
+}
+
+footer a
+{   
+    color: #5f6368;
+    font-size: medium;
+}
+
+footer a:hover
+{  
+    text-decoration: underline;
+}
+
+div.basdepage0
+{
+    display: flex;
+    align-content: flex-start;
+    flex-direction: row;
+    width: auto;
+    margin: 0 auto;
+}
+
+div.basdepage1
+{
+    display: flex;
+    position: absolute; bottom: 0; left: 0;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 500px;
+    margin: 0 auto;
+}
+
+div.basdepage2
+{
+    display: flex;
+    position: absolute; bottom: 0; right: 0;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 500px;
+    margin: 0 auto;
+}
